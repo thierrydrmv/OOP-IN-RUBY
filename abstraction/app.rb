@@ -6,7 +6,9 @@ class App
     roberto = User.new "Roberto", 22, 1.80
 
     puts thierry.apresentacao
+    thierry.hello
     puts roberto.apresentacao
+    roberto.hello
   end
 end
 

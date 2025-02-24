@@ -1,5 +1,13 @@
+# abstraindo usando módulos
+module Hi
+  def hello
+    puts "hi"
+  end
+end
+
 class User
   @@users = []
+  include Hi
   attr_accessor :name, :age, :height
 
   def initialize name, age, height
